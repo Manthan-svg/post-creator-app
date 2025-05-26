@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+</head>
+<body>
+    <div class="min-h-[100vh] w-[100%] text-white bg-zinc-900 p-10">
+        <p class="text-2xl font-bold mt-2">Edit your Post!</p>
+
+        <form class="flex flex-col mt-3" action="/posts/edit/<%= post._id %>" method="post">
+            <textarea placeholder="What's is in your mind ?" class="resize-none bg-zinc-700 border-2 border-zinc-500 rounded-md outline-none p-2 h-[10vw] w-[25vw] mt-5" name="content" >
+                <%= post.content %>
+            </textarea>
+            <button class="h-[40px] w-[14vw] bg-yellow-400 mt-5 text-black text-[1.2vw] rounded-md outline-none cursor-pointer">Update Post</button>
+    
+        </form>
+
+
+    </div>
+
+    
+</body>
+</html>
