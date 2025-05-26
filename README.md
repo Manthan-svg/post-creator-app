@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Post Creator Web App
 
 A full-stack social posting platform where users can register, log in, create, like, and edit posts, and manage their sessions securely.
@@ -157,3 +158,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 **Connect with me on [LinkedIn](https://www.linkedin.com/)!**  
 Let me know your thoughts or suggestions.
+=======
+# post-creator-app
+This repository is for overall handling of post with proper authentication with login and registration feature.
+>>>>>>> c48f215545456979e4f6f03069e32f80421a1e1f
